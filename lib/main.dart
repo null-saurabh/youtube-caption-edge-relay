@@ -272,7 +272,7 @@ class _RelayDashboardScreenState extends State<RelayDashboardScreen> {
   Timer? _pollTimer;
   bool _running = false;
   bool _keepScreenAwake = true;
-  int _pollIntervalMs = 1200;
+  final int _pollIntervalMs = 1200;
   int _heartbeatsSent = 0;
   int _jobsCompleted = 0;
   int _jobsFailed = 0;
